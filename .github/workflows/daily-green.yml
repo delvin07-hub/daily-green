@@ -16,8 +16,8 @@ jobs:
 
       - name: Create 6 daily commits
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "delvin07-hub"
+          git config --local user.email "145919123+delvin07-hub@users.noreply.github.com"
           for i in 1 2 3 4 5 6; do
             TIMESTAMP=$(date -u)
             echo "Commit #$i | $TIMESTAMP" >> commit_log.txt
